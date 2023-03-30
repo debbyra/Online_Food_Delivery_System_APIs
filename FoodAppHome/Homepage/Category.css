@@ -1,0 +1,47 @@
+/*css for Menu*/
+.category{
+    margin-top: 5%;
+  }
+  .category h3{
+    text-align: center;
+    padding-top: 2%;
+    font-size: 40px;
+    color: maroon;
+  }
+  .myContainer3 {
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+  }
+  
+  
+  .cards3{
+    width: 260px;
+    padding: 20px;
+  }
+  .cards3:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  .image_box3 img{
+    width: 250px;
+    height: 200px;
+  }
+  .details3 p:nth-child(1){
+    font-weight: bold;
+    color: rgb(93, 89, 89);
+  }
+  
+  .details3 button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: maroon;
+    outline: none;
+    border-radius: 2px;
+  }
+  .btn3{
+    color: white;
+  }

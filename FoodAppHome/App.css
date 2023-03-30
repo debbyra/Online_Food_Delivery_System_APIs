@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  background: whitesmoke;
+}
+h2 {
+  color: rgb(30, 33, 31);
+  font-size: 50px;
+}
+
+li {
+  display: block;
+  color: rgb(102, 116, 106);
+  text-align: center;
+  /* padding: 14px 16px; */
+  overflow: hidden;
+  
+}
+ul li{
+  margin-top: 4%;
+  margin-bottom:2% ;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+
+}
+
+.myNav {
+  background-color: maroon;
+  text-decoration: none;
+
+
+
+}
+
+
+.one {
+  text-decoration: none;
+  color: rgb(239, 232, 232);
+  font-size: 20px;
+  
+}
+
+
+.two {
+  text-decoration: none;
+  color: rgb(239, 232, 232);
+  border: none;
+  border-radius: 9px;
+  background: black;
+  font-size: 20px;
+  padding: 5px;
+  
+
+}
+
+
+li :hover {
+  background-color: #111;
+}
+
+.four {
+  text-decoration: none;
+  color: rgb(239, 232, 232);
+  font-size: 20px;
+
+  /* margin: 10px 30px; */
+
+}
+
+.Header {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.sec2 {
+  padding-top: 25%;
+  margin-left: 30%;
+
+}
+
+.btn {
+
+  color: rgb(239, 232, 232);
+  border: none;
+  border-radius: 12px;
+  background: maroon;
+  font-size: 15px;
+  margin: 10px 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.word h3{
+  color: rgb(89, 84, 84);
+  font-size: 15px;
+}
+
+.order {
+  
+  margin: 9%;
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background: maroon;
+}
+
+.sec3 {
+  padding: 10%;
+  margin-left: 20%;
+  color: rgb(228, 218, 218);
+
+}
+
+h4 {
+  font-size: 30px;
+
+}
+
+.img {
+  width: 80%;
+  height: 100%;
+}
+
+.footer2 {
+  background: maroon;
+
+}
+
+.footer3 {
+  background: rgb(135, 23, 23);
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 5%;
+
+}
+
+.ft2 {
+  color: white;
+  padding: 20%;
+}
+
+.icon {
+  margin-right: 5%;
+  size: 90%;
+}
+
+.ft1 {
+  padding: 4%;
+  color: white;
+}
+
+.myform {
+  margin: 20px;
+  color: rgb(245, 240, 240);
+  font-size: 16px;
+
+}
+
+.submit1 {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 30px;
+  color: white;
+  padding: 5px 30px; 
+  /* background: linear-gradient(to right, #0c070e, maroon); */
+  background: maroon;
+  margin: auto;
+  outline: none;
+  border: 2px solid white;
+  cursor: pointer;
+
+}
+/*css for Menu*/
+.menu{
+  margin-top: 5%;
+}
+.menu h3{
+  text-align: center;
+  padding-top: 2%;
+  font-size: 40px;
+  color: maroon;
+}
+.myContainer1 {
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+}
+
+
+.cards2{
+  width: 490px;
+  padding: 20px;
+}
+.cards2:hover{
+  box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.image_box2 img{
+  width: 450px;
+  height: 400px;
+}
+.details2 p:nth-child(1){
+  font-weight: bold;
+  color: rgb(93, 89, 89);
+}
+
+.details2 button{
+  padding: 5px 10px;
+  border: none;
+  font-weight: bold;
+  background-color: maroon;
+  outline: none;
+  border-radius: 2px;
+}
+.btn2{
+  color: white;
+}
