@@ -1,0 +1,23 @@
+.about{
+    background-color: maroon;
+    
+}
+.aboutus{
+    background-color: whitesmoke;
+    /* border: 2px ; */
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.aboutus h3{
+    padding-left: 30px;
+}
+
+hr{
+    border: 1px solid black;
+}
